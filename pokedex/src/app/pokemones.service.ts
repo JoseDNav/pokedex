@@ -28,7 +28,7 @@ export class PokemonesService {
     const resjson = await res.json();
 
      
-   console
+   console.log(resjson)
   
     
    

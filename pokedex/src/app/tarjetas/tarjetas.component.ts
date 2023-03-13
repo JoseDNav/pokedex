@@ -16,6 +16,9 @@ interface Ipokemon {
   styleUrls: ['./tarjetas.component.scss']
 })
 export class TarjetasComponent implements OnChanges {
+  constructor (private pokemones: PokemonesService){}
+  
+  
   ngOnChanges(): void{
     
     this.extraerinfo()
@@ -27,6 +30,8 @@ export class TarjetasComponent implements OnChanges {
   extraerinfo(){
     if(this.data){
       this.id = this.data.url.substring(34,this.data.url.length-1)
+
+      this.pokemones.getid(this.id);
     }
 
 
