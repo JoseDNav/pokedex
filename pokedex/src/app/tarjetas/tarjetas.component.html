@@ -1,8 +1,11 @@
-<div id="contenedor">
+<div class="card">
     <h3 *ngIf="data">{{data.name}}</h3>
     <p>{{id}}</p>
-  
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{id}}.png"> 
+    <img src="{{poke}}{{id}}.png"  > 
+
+    <p>Peso: {{peso}}</p>
+    <p>Altura: {{altura}}</p>
+    <p>{{tipo}}</p>
 
 </div>
 

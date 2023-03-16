@@ -1,0 +1,7 @@
+.card {
+    flex-basis: calc(100% / 4 - 20px);
+    max-width: calc(100vw / 4 - 20px);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }

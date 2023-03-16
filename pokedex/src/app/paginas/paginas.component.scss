@@ -1,3 +1,7 @@
-#contenedor{
-    height: 100vh;
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100vw;
 }

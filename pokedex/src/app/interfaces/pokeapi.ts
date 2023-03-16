@@ -10,3 +10,8 @@ export interface Ipokemonapi {
     url: string
   
   }
+
+  export interface tipos{
+   name: string,
+   url: string
+  }

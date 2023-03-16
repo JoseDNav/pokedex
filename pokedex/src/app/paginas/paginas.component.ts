@@ -5,7 +5,7 @@ import { PokemonesService } from '../pokemones.service';
 
 
 
-  //weight
+  
 
 @Component({
   selector: 'app-paginas',
@@ -29,7 +29,7 @@ export class PaginasComponent implements OnInit  {
  async cargarlista() {
 
   this.listapokemon = [...this.listapokemon, ...await this.PokemonesServices.getlista()]
-  console.log(this.listapokemon)
+  //console.log(this.listapokemon)
   }
 
 
